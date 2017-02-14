@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Listas2</string>
+    <string name="str_fruta">Fruta</string>
+    <string name="signoMenos">-</string>
+    <string name="signoMas">+</string>
+    <string name="cantidadDefault">0</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageViewImagen" />
+
+    <TextView
+        android:text="@string/str_fruta"
+        android:layout_width="120dp"
+        android:layout_height="59dp"
+        android:id="@+id/textViewNombre"
+        android:textSize="24sp"
+        android:textAlignment="textStart"
+        android:layout_gravity="center_vertical|start"
+        android:gravity="center_vertical|start" />
+
+    <Button
+        android:id="@+id/buttonMenos"
+        android:text="@string/signoMenos"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:textSize="24sp"
+        android:layout_gravity="end" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:id="@+id/textViewCantidad"
+        android:text="@string/cantidadDefault"
+        android:layout_gravity="center_vertical|end"
+        android:textAlignment="center"
+        android:gravity="center_vertical|end"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonMas"
+        android:text="@string/signoMas"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:textSize="24sp"
+        android:layout_gravity="end" />
+</LinearLayout>
