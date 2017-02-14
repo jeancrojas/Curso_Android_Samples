@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HandlerExample</string>
+    <string name="btProgress">Simulando una descarga</string>
+    <string name="btProgressBar">Iniciar ProgressBar</string>
+</resources>
